@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+   width: 100%;
+   background-color: rgb(87, 212, 229);
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.task-form {
+  margin-bottom: 20px;
+  display: flex; /* Add this line to use flexbox */
+  gap: 4px; /* This sets the gap between elements */
+  align-items: center;
+  justify-content: center;
+}
+.task-form input {
+  flex: 0.6; /* This will make the input field take up the available space */
+  font-size: 16px; /* Adjust the font size as needed */
+  padding: 6px; /* Adjust the padding as needed */
+}
+.task-list {
+  list-style-type: none;
+  padding: 0;
+
+}
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  background-color: #f4f4f4;
+  margin-bottom: 7px;
+  width: 874px; /* Set a specific width for the list items */
+  height: 40px; /* Set a specific height for the list items */
+  margin: 7px auto; /* Center horizontally */
+}
+.task-number {
+  margin-right: 10px; /* Add some space between the number and the task text */
+}
+
+button {
+  background-color: #631096;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  gap: 5px; /* Adjust the gap as needed */
+}
+
